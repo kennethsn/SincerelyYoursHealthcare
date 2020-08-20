@@ -366,6 +366,11 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+.list-bullet {
+  margin-top: 25px;
+  padding-left: 0;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
@@ -8083,7 +8088,8 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 500px;
+  min-height: 150px;
+  background-color: #4ECCA3;
   position: relative;
   display: block;
   margin-bottom: 30px; }
@@ -8175,6 +8181,11 @@ textarea.form-control {
       border-radius: 50%;
       background: #9de3cc;
       z-index: -1; }
+
+    .block-6 .icon i {
+      font-size: 50px;
+      color: #8c9190;
+    }
   .block-6 .media-body .heading {
     font-size: 20px; }
   .block-6 .media-body p {
@@ -8622,3 +8633,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.map-outer {
+  position:relative;
+  text-align:right;
+}
+
+.map-inner {
+  overflow:hidden;
+  background:none!important;
+}
